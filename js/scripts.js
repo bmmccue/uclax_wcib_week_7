@@ -1,24 +1,19 @@
-jQuery(function() {
+jQuery (function() {
 
-let my_switch = false;
+	let my_switch = false;
 
-$('#my_button').click(function () {
+$("#mybutton").click(function(){
 
-	//if ( my_switch == false) {
-		//my_switch = true;
-	  //$('.square.alt').addClass('red');
-//}   else {
-	 // my_switch = false;
-	//$('.square.alt').removeClass('red');
-//}
+   if ( my_switch == false) {
+   my_switch = true;
+   $('#my_image').attr ('src', '../images/yellow_chair.png');
 
-
-if ( $('.square.alt').hasClass('red') ) {
-	$('.square.alt').removeClass('red');
-}   else {
-$('.square.alt').addClass('red');
+} else {
+	my_switch = false;
+	$('#my_image').attr ('src', '../images/leather_chair.png');
 }
 
-  });
+
+});
 
 });
