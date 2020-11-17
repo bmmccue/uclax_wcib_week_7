@@ -1,19 +1,18 @@
 body {
   font-family: sans-serif;
-  margin: 20px; }
-  body .board {
-    background: yellow;
-    width: 300px;
-    height: 300px;
-    margin-bottom: 20px; }
-  body .square {
-    width: 100px;
-    height: 100px;
-    float: left; }
-    body .square.red {
-      background: red; }
-    body .square.green {
-      background: green; }
-  body .animal {
-    width: 100px;
-    height: auto; }
+  text-align: center;
+  background: url(../images/interior.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+h1 {
+  font-family: Beloved Script, arial, sans-serif;
+  color: #d3b947;
+  margin-top: 100px;
+  font-size: 100px; }
+
+.chair {
+  margin-top: 300px;
+  margin-left: -250px; }
